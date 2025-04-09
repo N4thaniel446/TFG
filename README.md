@@ -105,20 +105,6 @@ El patrón MVC divide la aplicación en tres componentes principales:
   - **Ejemplo en la app:**  
     - Un controlador que, al detectar la finalización de un objetivo, solicita al Modelo que incremente la experiencia y, a continuación, manda una señal a la Vista para que muestre una animación de avance.
 
-### Beneficios de utilizar MVC
-
-- **Separación de responsabilidades:**  
-  Cada componente tiene un rol bien definido, lo que favorece la organización y la claridad del código.
-
-- **Facilita el mantenimiento:**  
-  Al estar desacoplados, los cambios en la lógica de negocio o en la interfaz no afectan al otro componente.
-
-- **Escalabilidad:**  
-  La aplicación puede ampliarse y modificarse fácilmente sin complicaciones, ya que cada parte se puede actualizar de forma independiente.
-
-- **Facilita las pruebas:**  
-  Se pueden realizar pruebas unitarias en la capa del Modelo y pruebas de integración entre el Controlador y la Vista sin interferir en todo el sistema.
-
 ---
 
 ## Plan de Desarrollo 📅

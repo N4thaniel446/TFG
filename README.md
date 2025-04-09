@@ -26,7 +26,7 @@
 
 ## Descripción general 📖
 
-Esta aplicación es una herramienta motivacional diseñada para gestionar tus objetivos diarios y transformarlos en una experiencia divertida. A medida que alcanzas tus metas, acumulas experiencia, desbloqueas logros y haces avanzar a un personaje virtual con características de RPG y Tamagotchi.
+Esta aplicación es una herramienta motivacional diseñada para gestionar tus objetivos diarios y transformarlos en una experiencia divertida. A medida que alcanzas tus metas, acumulas experiencia, desbloqueas logros y haces avanzar a un personaje virtual con características de RPG.
 
 ---
 

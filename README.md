@@ -114,5 +114,5 @@ El desarrollo se llevará a cabo en las siguientes fases:
 1. **Clonar el repositorio:**
 
    ```bash
-   git clone https://github.com/tu_usuario/TFG.git
+   git clone https://github.com/N4thaniel446/TFG.git
    cd TFG

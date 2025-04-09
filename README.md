@@ -3,7 +3,7 @@
 > **Convierte tus objetivos diarios en una aventura épica**  
 > Una aplicación móvil que te motiva a lograr tus metas diarias a través de mecánicas gamificadas inspiradas en RPG.
 
-[![Contribuciones Bienvenidas](https://img.shields.io/badge/contribuciones-bienvenidas-brightgreen)](https://github.com/tu_usuario/tu_repositorio)
+
 [![Licencia MIT](https://img.shields.io/badge/licencia-MIT-blue)](LICENSE)
 [![Unity](https://img.shields.io/badge/Unity-2021.3.0f1-blueviolet)](https://unity.com/)
 [![C#](https://img.shields.io/badge/C%23-language-orange)](https://docs.microsoft.com/dotnet/csharp/)

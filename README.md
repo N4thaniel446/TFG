@@ -1,5 +1,5 @@
 App Gamificada de Objetivos Diarios
-Esta aplicación móvil tiene como objetivo facilitar a los usuarios la creación, seguimiento y cumplimiento de objetivos diarios, añadiendo una capa de gamificación. Cada vez que se completa un objetivo, el usuario suma experiencia, desbloquea logros y hace avanzar a un personaje al estilo RPG o Tamagotchi.
+Esta aplicación móvil tiene como objetivo facilitar a los usuarios la creación, seguimiento y cumplimiento de objetivos diarios, añadiendo una capa de gamificación. Cada vez que se completa un objetivo, el usuario suma experiencia, desbloquea logros y hace avanzar a un personaje al estilo RPG.
 
 Índice
 Descripción general

@@ -1,4 +1,4 @@
-# 📱🎮 App Gamificada de Objetivos Diarios
+# 📱🎮 Questify
 
 > **Convierte tus objetivos diarios en una aventura épica**  
 > Una aplicación móvil que te motiva a lograr tus metas diarias a través de mecánicas gamificadas inspiradas en RPG.

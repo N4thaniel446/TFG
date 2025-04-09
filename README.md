@@ -42,7 +42,7 @@ Esta aplicación es una herramienta motivacional diseñada para gestionar tus ob
   Desbloquea hitos y consigue recompensas a medida que avanzas.
 
 - **Interfaz Gamificada** 🎨  
-  Disfruta de una experiencia visual inspirada en juegos RPG y Tamagotchi.
+  Disfruta de una experiencia visual inspirada en juegos RPG.
 
 - **Alertas y Recordatorios** ⏰  
   Recibe notificaciones para mantenerte enfocado en tus objetivos.

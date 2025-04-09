@@ -1,93 +1,118 @@
-App Gamificada de Objetivos Diarios
-Esta aplicación móvil tiene como objetivo facilitar a los usuarios la creación, seguimiento y cumplimiento de objetivos diarios, añadiendo una capa de gamificación. Cada vez que se completa un objetivo, el usuario suma experiencia, desbloquea logros y hace avanzar a un personaje al estilo RPG.
+# 📱🎮 App Gamificada de Objetivos Diarios
 
-Índice
-Descripción general
+> **Convierte tus objetivos diarios en una aventura épica**  
+> Una aplicación móvil que te motiva a lograr tus metas diarias a través de mecánicas gamificadas inspiradas en RPG y Tamagotchi.
 
-Características
+[![Contribuciones Bienvenidas](https://img.shields.io/badge/contribuciones-bienvenidas-brightgreen)](https://github.com/tu_usuario/tu_repositorio)
+[![Licencia MIT](https://img.shields.io/badge/licencia-MIT-blue)](LICENSE)
+[![Unity](https://img.shields.io/badge/Unity-2021.3.0f1-blueviolet)](https://unity.com/)
+[![C#](https://img.shields.io/badge/C%23-language-orange)](https://docs.microsoft.com/dotnet/csharp/)
+[![SQL](https://img.shields.io/badge/SQL-database-yellow)](https://www.mysql.com/)
 
-Tecnologías
+---
 
-Arquitectura y diseño
+## Índice 🗂️
+- [Descripción general](#descripción-general)
+- [Características](#características)
+- [Tecnologías](#tecnologías)
+- [Arquitectura y Diseño](#arquitectura-y-diseño)
+- [Plan de Desarrollo](#plan-de-desarrollo)
+- [Instalación y Ejecución](#instalación-y-ejecución)
+- [Contribuciones](#contribuciones)
+- [Licencia](#licencia)
+- [Contacto](#contacto)
 
-Plan de desarrollo
+---
 
-Instalación y ejecución
+## Descripción general 📖
 
-Contribuciones
+Esta aplicación es una herramienta motivacional diseñada para gestionar tus objetivos diarios y transformarlos en una experiencia divertida. A medida que alcanzas tus metas, acumulas experiencia, desbloqueas logros y haces avanzar a un personaje virtual con características de RPG y Tamagotchi.
 
-Licencia
+---
 
-Contacto
+## Características ✨
 
-Descripción general
-La app está diseñada para ser una herramienta motivacional que fomente la consecución de metas cotidianas, combinando la organización personal con elementos lúdicos. Inspirada en mecánicas de juegos de rol y en el concepto de Tamagotchi, la aplicación convierte el cumplimiento de tareas en una experiencia divertida y adictiva.
+- **Gestión de Objetivos Diarios** 📝  
+  Crea, edita y sigue tus metas diarias de forma intuitiva.
 
-Características
-Gestión de objetivos diarios:
-Permite crear, editar y marcar objetivos diarios según la planificación personal del usuario.
+- **Progreso y Experiencia** 🚀  
+  Gana experiencia por cada objetivo cumplido y sube de nivel.
 
-Seguimiento de progreso:
-Cada objetivo completado suma experiencia y avanza el progreso de un personaje virtual.
+- **Sistema de Logros y Recompensas** 🏆  
+  Desbloquea hitos y consigue recompensas a medida que avanzas.
 
-Sistema de logros:
-Al alcanzar ciertos hitos o completar desafíos específicos, el usuario desbloquea logros y recompensas.
+- **Interfaz Gamificada** 🎨  
+  Disfruta de una experiencia visual inspirada en juegos RPG y Tamagotchi.
 
-Interfaz gamificada:
-Integración de elementos visuales inspirados en RPG y Tamagotchi, que visualizan la evolución del usuario y del personaje.
+- **Alertas y Recordatorios** ⏰  
+  Recibe notificaciones para mantenerte enfocado en tus objetivos.
 
-Alertas y recordatorios:
-Notificaciones para recordar al usuario el cumplimiento de sus objetivos diarios.
+---
 
-Tecnologías
+## Tecnologías 🛠️
+
 El proyecto se desarrollará utilizando las siguientes tecnologías:
 
-C#:
-Como lenguaje de programación principal para la lógica de la aplicación y para el desarrollo en Unity.
+- **C#**  
+  Lenguaje principal para el desarrollo y la lógica de la aplicación.
 
-Unity:
-Motor de desarrollo que facilitará la creación de una interfaz interactiva y la implementación de elementos gamificados, adaptable a múltiples plataformas (Android, iOS, etc.).
+- **Unity**  
+  Motor de desarrollo que facilita la creación de interfaces interactivas y la implementación de elementos gamificados.
 
-SQL:
-Para la gestión y almacenamiento de la información de usuarios, objetivos, progreso y logros en una base de datos relacional.
+- **SQL**  
+  Base de datos para la gestión y almacenamiento de usuarios, objetivos y logros.
 
-Arquitectura y diseño
-La aplicación se organizará en módulos que permitan separar la lógica de negocio, la interfaz de usuario y la gestión de datos. Algunos puntos claves son:
+---
 
-Módulo de gestión de usuarios:
-Registro, autenticación y perfil del usuario.
+## Arquitectura y Diseño 🏗️
 
-Módulo de objetivos:
-Creación, edición y seguimiento de los objetivos diarios.
+La aplicación se estructurará en módulos para mantener separadas la lógica de negocio, la interfaz de usuario y la gestión de datos:
 
-Módulo de gamificación:
-Sistema de experiencia, logros y progreso del personaje, con indicadores visuales y feedback inmediato.
+- **Gestión de Usuarios** 👤  
+  Registro, autenticación y gestión de perfiles.
 
-Conexión a la base de datos:
-Integración de un sistema SQL para almacenar de forma segura y eficiente la información relevante.
+- **Módulo de Objetivos** 🎯  
+  Creación, edición y seguimiento de metas diarias.
 
-Plan de desarrollo
-El desarrollo se estructurará en fases para garantizar una implementación organizada y escalable:
+- **Módulo de Gamificación** 🎮  
+  Sistema de experiencia, logros y recompensas para impulsar el progreso del personaje.
 
-Investigación y análisis:
-Revisión de metodologías de gamificación y análisis de aplicaciones similares para definir características diferenciadoras.
+- **Base de Datos SQL** 💾  
+  Almacenamiento seguro y eficiente de toda la información relevante.
 
-Diseño de la aplicación:
-Elaboración de wireframes, mockups y un diagrama de arquitectura general.
+---
 
-Implementación del MVP (Producto Mínimo Viable):
+## Plan de Desarrollo 📅
 
-Configuración del entorno de desarrollo en Unity y establecimiento del proyecto en C#.
+El desarrollo se llevará a cabo en las siguientes fases:
 
-Desarrollo de la funcionalidad básica para la gestión y seguimiento de objetivos.
+1. **Investigación y Análisis** 🔍  
+   Estudio de aplicaciones similares y metodologías de gamificación.
 
-Integración inicial con base de datos SQL para almacenamiento de datos.
+2. **Diseño de la Aplicación** 🎨  
+   Creación de wireframes, mockups y diagramas de arquitectura.
 
-Integración de la gamificación:
-Implementación del sistema de experiencia, logros y progreso del personaje.
+3. **Desarrollo del MVP** 🚧  
+   - Configuración del entorno en Unity y desarrollo en C#.  
+   - Implementación de la gestión de objetivos y conexión a la base de datos SQL.
 
-Pruebas y ajuste de la interfaz:
-Sesiones de testing para detectar errores y optimizar la experiencia de usuario.
+4. **Integración de Gamificación** 🏅  
+   Implementación del sistema de experiencia, logros y progreso del personaje.
 
-Documentación y preparación para el lanzamiento:
-Creación de documentación técnica y material explicativo para la evaluación del proyecto.
+5. **Pruebas y Optimización** 🛠️  
+   Sesiones de testing y ajustes para optimizar la experiencia de usuario.
+
+6. **Documentación y Lanzamiento** 🚀  
+   Elaboración de la documentación técnica y preparación para la presentación final.
+
+---
+
+## Instalación y Ejecución 📥
+
+> **Nota:** Las instrucciones pueden ajustarse conforme avance el desarrollo.
+
+1. **Clonar el repositorio:**
+
+   ```bash
+   git clone https://github.com/tu_usuario/tu_repositorio.git
+   cd tu_repositorio

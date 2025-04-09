@@ -64,21 +64,62 @@ El proyecto se desarrollará utilizando las siguientes tecnologías:
 
 ---
 
-## Arquitectura y Diseño 🏗️
+## Arquitectura y Diseño (MVC) 🏗️
 
-La aplicación se estructurará en módulos para mantener separadas la lógica de negocio, la interfaz de usuario y la gestión de datos:
+El proyecto seguirá el patrón **Modelo-Vista-Controlador (MVC)**, un enfoque de diseño que facilita la separación de responsabilidades en el desarrollo de software. Gracias a MVC, podremos mantener la lógica de negocio, la presentación y el manejo de datos de forma independiente, lo que simplifica el mantenimiento, las pruebas y la escalabilidad de la aplicación.
 
-- **Gestión de Usuarios** 👤  
-  Registro, autenticación y gestión de perfiles.
+### ¿Qué es el patrón MVC?
 
-- **Módulo de Objetivos** 🎯  
-  Creación, edición y seguimiento de metas diarias.
+El patrón MVC divide la aplicación en tres componentes principales:
 
-- **Módulo de Gamificación** 🎮  
-  Sistema de experiencia, logros y recompensas para impulsar el progreso del personaje.
+- **Modelo (Model) 📊:**  
+  Es la capa encargada de la gestión de datos y de la lógica de negocio. Aquí se definen las estructuras de datos, las reglas y las funciones que manipulan la información, como la creación, actualización y eliminación de registros en la base de datos SQL.
 
-- **Base de Datos SQL** 💾  
-  Almacenamiento seguro y eficiente de toda la información relevante.
+- **Vista (View) 👀:**  
+  Es la interfaz de usuario y la parte visual de la aplicación. Se encarga de mostrar la información que proviene del Modelo de forma interactiva y atractiva. En nuestro caso, Unity se utilizará para diseñar esta capa, presentando el progreso del usuario, los logros y la evolución del personaje con elementos gráficos y animaciones.
+
+- **Controlador (Controller) 🎮:**  
+  Actúa como intermediario entre el Modelo y la Vista. El Controlador interpreta las acciones del usuario (por ejemplo, cuando se marca un objetivo como completado), actualiza el Modelo y solicita a la Vista que se refresque para reflejar los cambios. Esta capa coordina la interacción entre la lógica de negocio y la presentación.
+
+### Aplicación del MVC en el Proyecto
+
+- **Modelo (Model) 📊**
+  - **Responsabilidades:**  
+    - Gestionar y validar los datos (objetivos diarios, experiencia, logros, perfiles de usuario, etc.).
+    - Realizar operaciones CRUD (crear, leer, actualizar, borrar) en la base de datos SQL.
+  - **Ejemplo en la app:**  
+    - Al completar un objetivo, el modelo actualiza la experiencia acumulada y registra el logro en la base de datos.
+
+- **Vista (View) 👀**
+  - **Responsabilidades:**  
+    - Mostrar de manera atractiva la interfaz de usuario utilizando Unity.
+    - Presentar de forma clara los objetivos diarios, las notificaciones, el progreso del personaje y los logros desbloqueados.
+  - **Ejemplo en la app:**  
+    - Pantallas y animaciones que reflejan el avance, como el incremento de niveles o la aparición de nuevos logros.
+
+- **Controlador (Controller) 🎮**
+  - **Responsabilidades:**  
+    - Recibir y procesar las interacciones del usuario (por ejemplo, hacer clic en "objetivo completado").
+    - Invocar las funciones del Modelo para actualizar los datos.
+    - Coordinar con la Vista para actualizar la interfaz según los cambios en los datos.
+  - **Ejemplo en la app:**  
+    - Un controlador que, al detectar la finalización de un objetivo, solicita al Modelo que incremente la experiencia y, a continuación, manda una señal a la Vista para que muestre una animación de avance.
+
+### Beneficios de utilizar MVC
+
+- **Separación de responsabilidades:**  
+  Cada componente tiene un rol bien definido, lo que favorece la organización y la claridad del código.
+
+- **Facilita el mantenimiento:**  
+  Al estar desacoplados, los cambios en la lógica de negocio o en la interfaz no afectan al otro componente.
+
+- **Escalabilidad:**  
+  La aplicación puede ampliarse y modificarse fácilmente sin complicaciones, ya que cada parte se puede actualizar de forma independiente.
+
+- **Facilita las pruebas:**  
+  Se pueden realizar pruebas unitarias en la capa del Modelo y pruebas de integración entre el Controlador y la Vista sin interferir en todo el sistema.
+
+---
 
 ---
 

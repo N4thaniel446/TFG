@@ -121,8 +121,6 @@ El patrón MVC divide la aplicación en tres componentes principales:
 
 ---
 
----
-
 ## Plan de Desarrollo 📅
 
 El desarrollo se llevará a cabo en las siguientes fases:

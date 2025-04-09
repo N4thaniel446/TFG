@@ -1,7 +1,7 @@
 # 📱🎮 App Gamificada de Objetivos Diarios
 
 > **Convierte tus objetivos diarios en una aventura épica**  
-> Una aplicación móvil que te motiva a lograr tus metas diarias a través de mecánicas gamificadas inspiradas en RPG y Tamagotchi.
+> Una aplicación móvil que te motiva a lograr tus metas diarias a través de mecánicas gamificadas inspiradas en RPG.
 
 [![Contribuciones Bienvenidas](https://img.shields.io/badge/contribuciones-bienvenidas-brightgreen)](https://github.com/tu_usuario/tu_repositorio)
 [![Licencia MIT](https://img.shields.io/badge/licencia-MIT-blue)](LICENSE)

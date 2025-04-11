@@ -48,6 +48,37 @@ Esta aplicación es una herramienta motivacional diseñada para gestionar tus ob
   Recibe notificaciones para mantenerte enfocado en tus objetivos.
 
 ---
+## Funcionalidades y Mecánicas de Gamificación 🎯🎮
+
+En esta aplicación, la experiencia del usuario se enriquece mediante un sistema de gamificación que involucra la creación de metas personales, la participación en una misión mensual y la medición del progreso a través de una barra de XP, que se traduce en niveles y recompensas.
+
+### ¿Los usuarios crearán sus propias metas? ✍️
+Sí, los usuarios serán los responsables de crear y personalizar sus propias metas diarias. Cada meta puede ser adaptada a sus necesidades y se le asignará una duración estimada que puede ser de 1, 2, 3, 4 o 5 horas. Esto les permitirá planificar y gestionar sus actividades de forma flexible.
+
+### ¿Habrá misiones prediseñadas? 🗓️
+Además de las metas personales, la aplicación ofrecerá una **misión mensual** prediseñada enfocada en fomentar hábitos saludables y mantener un estilo de vida equilibrado. Por ejemplo, algunas de estas misiones podrían incluir:
+- Recordatorios para quedar con nuestro mejor amigo/a.
+- Desafío de correr 1 km.
+- Llamar a nuestros padres y tener una charla con ellos.
+
+Esta misión mensual busca impulsar acciones que mejoren el bienestar personal y social, actuando como complemento a las metas individuales.
+
+### ¿Cómo se mide el progreso? 📈
+El progreso del usuario se visualizará a través de una **barra de XP** que se irá completando conforme se realicen las tareas asignadas:
+- Cada tarea cuenta con un tiempo establecido (1 a 5 horas).
+- Por cada hora planificada y completada, se añade **1 punto de XP**.
+- Al acumular **20 puntos de XP**, el usuario sube de nivel.
+
+Esta metodología permite que el esfuerzo y el tiempo dedicados a una tarea se reflejen de forma tangible en la experiencia del usuario.
+
+### ¿Qué tipo de recompensas o retroalimentación se da? 🏆
+La aplicación recompensa la constancia y la fidelidad del usuario mediante:
+- **Niveles:** Cada 20 puntos de XP equivale a un nivel alcanzado.
+- **Medallitas de Recompensa:** Por cada 10 niveles alcanzados, el usuario recibirá una medallita. Esta medalla simboliza el compromiso y la constancia en el cumplimiento de las metas, además de servir como incentivo para continuar progresando.
+
+Este sistema integral de gamificación no solo motiva la consecución de objetivos, sino que también proporciona una retroalimentación visual y tangible que incentiva la repetición del uso y el establecimiento de nuevas metas.
+
+---
 
 ## Tecnologías 🛠️
 
